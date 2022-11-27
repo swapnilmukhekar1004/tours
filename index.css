@@ -1,0 +1,399 @@
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+   
+}
+
+ .whatsapp{
+     position: fixed;
+     top: 91%;
+     right: 2%;
+     z-index: 1000;
+     
+
+ }
+
+ .whatsapp img{
+     width: 50px;
+     border-radius: 50%;
+ }
+
+/******************************Navbar section*********************************/
+.navbar{
+    background-color: #17233a;
+    
+    
+}
+
+.navbar.stickyadd{
+    background-color: #0957de !important;
+    transition: .5s all ease-in-out;
+    box-shadow: 0 1px 8px 3px rgba(0, 0, 0,0.5);
+    border-radius: 0px 0px 15px 15px;
+}
+
+.navbar-brand,.navbar-brand:hover{
+    font-family: 'Smooch', cursive;
+    font-size: 30px !important;
+    color: #fff;
+    font-weight: 600;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none !important;
+   
+}
+
+.navbar-toggler i{
+    color: #fff;
+
+}
+
+.nav-link{
+    color: #ffff !important;
+}
+
+.search-header,.search-header:hover{
+    text-decoration: none;
+    color: #fff;
+
+}
+.ic{
+   
+    height: 30px;
+    display: none ;
+
+}
+.ic i{
+    padding: 0px 10px 0px 10px;
+    color: gainsboro;
+}
+
+.dropdown-menu{
+    border: none !important;
+    background-color: #17233a !important;
+}
+
+.dropdown-item{
+    color: #fff !important;
+    transition: 0.6s !important;
+}
+
+
+.dropdown-item:hover{
+    background-color:#17233a !important;
+    color: #ff7a42 !important;
+}
+
+
+
+
+
+/******************************Navbar section*********************************/
+
+
+
+/******************************Home section*********************************/
+
+.main{
+    width: 100%;
+    min-height: 400px;
+    max-height: auto;
+    margin-top: 60px;
+    background: rgba(24, 24, 24,0.4);
+    background-image: url('images/h1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+   
+    background-blend-mode: multiply;
+   
+}
+
+.sub-main{
+    width: 100%;
+    height: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+.left{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.l-group{
+    margin-top: 20%;
+
+  color: #fff;
+
+
+}
+
+.l-group h1{
+    font-size: 43px;
+}
+
+
+.l-group span{
+    color: #ff7a42;
+}
+
+.l-group small{
+    font-family: 'Smooch', cursive;
+    font-size: 21px;
+    
+}
+
+/******************************Home section End*********************************/
+
+
+
+
+
+
+
+/******************************Home 2 section End*********************************/
+
+#more,#more2{
+  display: none;
+ 
+}
+
+.read-color{
+  color: #ff7a42;
+}
+
+
+
+.card{
+  border: none !important;
+
+
+}
+
+.card-body{
+ 
+}
+
+
+
+
+.card-body img{
+  
+  position: relative;
+ 
+
+  width: 100% !important;
+  
+
+}
+
+
+.card-body h4
+{
+   position: absolute;
+   top: 20px;
+   left: 20px;
+   font-size: 15px;
+   font-weight: 600;
+   text-transform:capitalize ;
+   background-color: rgba(19, 19, 19,0.5);
+   color: #fff;
+   padding: 10px;
+
+}
+.h-rs{
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: rgba(19, 19, 19,0.8);
+  color: #fff;
+  padding: 10px;
+
+}
+
+.h-rs span{
+  font-weight: 600;
+}
+
+.ph{
+    font-size: 15px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+
+
+
+/******************************Home 2 section End*********************************/
+
+
+
+/******************************Home 3 section End*********************************/
+.form{
+    width: 100%;
+    min-height: 300px;
+    max-height: auto;
+    background-image: url(images/bg-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    position:relative ;
+}
+
+.form-colle{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-40%,-40%);
+
+
+}
+
+.img{
+    height: 130px;
+    width: 130px;
+    position: absolute;
+    
+    top: 50%;
+    right: 10px;
+    transform: translate(-50%,-50%);
+     animation-name: sample;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    box-shadow: rgba(248, 248, 253, 0.7) 0px 7px 29px 0px;
+
+}
+
+
+.img{
+    animation-name: sample;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+@keyframes sample{
+    0%{
+
+    }
+    100%{
+      border-radius: 10px;
+    }
+}
+
+.frm{
+    position: absolute;
+    left: 10px;
+    top: 30%;
+
+}
+
+.frm input{
+    padding: 7px 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+
+}
+
+.frm input:focus{
+    outline:none ;
+    outline-color: #ff7a42;
+   
+}
+
+.sub{
+    background-color: #ff7a42;
+    border-color:#ff7a42 ;
+    color: #fff;
+    border: none;
+}
+
+
+/******************************Home 3 section End*********************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************************media query section start*********************************/
+
+@media(max-width:884px){
+    .form{
+        min-height: 250px;
+    }
+
+
+    .img{
+        position: absolute;
+        width: 80px;
+        height: auto;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        box-shadow: none;
+    }
+
+    .form-colle{
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    
+    
+    }
+    .form-colle h1{
+        
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+}
